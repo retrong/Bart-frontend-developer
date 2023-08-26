@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,4 +6,35 @@
 
 *{
     scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+}
+
+.nav-li{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 50px;
+}
+
+.nav-li:hover{
+    color: rgb(98, 170, 194);
+}
+
+.nav-li-col{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.nav-li-col:hover{
+    color: rgb(98, 170, 194);
 }
