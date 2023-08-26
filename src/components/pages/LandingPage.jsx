@@ -1,4 +1,5 @@
 import styles from '../../style';
+import Hero from '../molecules/Hero';
 import Navbar from '../molecules/Navbar';
 
 export default function LandingPage() {
@@ -9,6 +10,12 @@ export default function LandingPage() {
                     <Navbar />
                 </div>
 			</div>
+
+            <div className='hero'>
+                <div>
+                    <Hero />
+                </div>
+            </div>
 		</section>
 	);
 }

@@ -26,6 +26,7 @@ li{
 
 .nav-li:hover{
     color: rgb(98, 170, 194);
+    border-bottom: 1px solid;
 }
 
 .nav-li-col{
@@ -37,4 +38,13 @@ li{
 
 .nav-li-col:hover{
     color: rgb(98, 170, 194);
+}
+
+.hero{
+    background-image: url(../src/assets/Hero.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
 }
