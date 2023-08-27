@@ -2,7 +2,6 @@ import styles from '../../style';
 import DataSet from '../molecules/DataSet';
 import Hero from '../molecules/Hero';
 import Navbar from '../molecules/Navbar';
-import SearchSection from '../molecules/SearchSection';
 
 export default function LandingPage() {
   return (
