@@ -13,12 +13,12 @@ const Navbar = () => {
 
 			<ul className="list-none sm:flex hidden justify-end items-center flex-1">
 				<li className="nav-li">
-					<a href="">Home</a>
+					<a href="#">Home</a>
 				</li>
-				<li id="search" className="nav-li">
+				<li className="nav-li">
 					<a href="#">Search</a>
 				</li>
-				<li id="data" className="nav-li mr-0">
+				<li className="nav-li mr-0">
 					<a href="#">Data</a>
 				</li>
 			</ul>
